@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="1152" started-at="2020-01-09T22:17:34Z" finished-at="2020-01-09T22:17:35Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="1152" started-at="2020-01-09T22:17:34Z" finished-at="2020-01-09T22:17:35Z">
+      <class name="com.demo.api3.controller.ConsumerTest">
+        <test-method status="PASS" signature="getdata(java.util.Map)[pri:0, instance:com.demo.api3.controller.ConsumerTest@a7e666]" name="getdata" duration-ms="169" started-at="2020-01-09T16:17:35Z" data-provider="data-provider" finished-at="2020-01-09T16:17:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{consumerStatus=Yes, ApiName=Asset Inquiry, groupid=com.demo, artifactid=pdsm, providerStatus=Verified}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getdata -->
+      </class> <!-- com.demo.api3.controller.ConsumerTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
